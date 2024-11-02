@@ -8,6 +8,83 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<!-- Car Insurance Registration Form------------- -->
+	<div class="form_container">
+		<form action="/sumit" method="post">
+			<!-- ----Name section-------- -->
+
+			<div class="form_group">
+				<label for ="name">Name</label>
+				<input id="name" type="text" placeholder="Name" required>
+			</div>
+			<br>
+
+			<!-- ------Email section----------- -->
+
+			<div class="form_group">
+				<label for ="email">Email</label>
+				<input id="email" type="email" placeholder="Email" required>
+			</div>
+			<br>
+
+			<!-- ------Gender section-------- -->
+
+			<div class="form_group">
+				<label for ="gender">Gender</label>
+				<input id="gender_m" type="radio" name="gender" required>Male
+				<input id="gender_f" type="radio" name="gender" required>Female
+				<input id="other" type="radio" name="gender" required>Other
+			</div>
+			<br>
+
+			<!-- -------Car Brands------------ -->
+
+			<div class="form_group">
+				<label for ="cars">Car Brands</label>
+				<select id ="cars">
+					<option>--Please select the option--</option>
+					<option>BMW</option>
+					<option>Audi</option>
+					<option>Mercedez</option>
+					
+				</select>
+			</div>
+			<br>
+
+			<!-- -----Car Age------------- -->
+					
+			<div class="form_group">
+				<label for ="carage">Car Age</label>
+				<input id="carage" type="number" placeholder="Car Age" required>
+			</div>
+			<br>
+
+			<!-- ------Date of purchase-------- -->
+
+			<div class="form_group">
+				<label for ="dop">Date of Purchase (dop)</label>
+				<input id="dop" type="date" required>
+			</div>
+			<br>
+
+			<!-- -------Password---------- -->
+
+			<div class="form_group">
+				<label for ="password">Password</label>
+				<input id="password" type="password" placeholder="Password" required>
+			</div>
+			<br>
+
+			<!-- -------Button section---------------------- -->
+			
+			
+			<button id="button" type="submit" value="submit">Submit</button>
+			
+
+			
+		</form>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
